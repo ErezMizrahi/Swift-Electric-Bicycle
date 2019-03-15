@@ -14,8 +14,6 @@
 		6DD681B42233A69E0098B210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD681B22233A69E0098B210 /* LaunchScreen.storyboard */; };
 		6DD681C12233A9150098B210 /* QuestionsFromXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD681C02233A9150098B210 /* QuestionsFromXml.swift */; };
 		6DD681C32233A9770098B210 /* QuestionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD681C22233A9770098B210 /* QuestionParser.swift */; };
-		6DD681C72233B6D50098B210 /* A3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD681C62233B6D50098B210 /* A3ViewController.swift */; };
-		6DD681C92233B8AE0098B210 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD681C82233B8AE0098B210 /* QuestionTableViewCell.swift */; };
 		6DF947BC223BF4B600AAB320 /* btnSubClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF947BB223BF4B600AAB320 /* btnSubClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +27,6 @@
 		6DD681B52233A69E0098B210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DD681C02233A9150098B210 /* QuestionsFromXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsFromXml.swift; sourceTree = "<group>"; };
 		6DD681C22233A9770098B210 /* QuestionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionParser.swift; sourceTree = "<group>"; };
-		6DD681C62233B6D50098B210 /* A3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3ViewController.swift; sourceTree = "<group>"; };
-		6DD681C82233B8AE0098B210 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		6DF947BB223BF4B600AAB320 /* btnSubClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btnSubClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +92,6 @@
 		6DD681BF2233A6FD0098B210 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6DD681C62233B6D50098B210 /* A3ViewController.swift */,
-				6DD681C82233B8AE0098B210 /* QuestionTableViewCell.swift */,
 				6DB799062233EB4800295F64 /* A3QuizViewController.swift */,
 			);
 			path = Controller;
@@ -182,11 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD681C72233B6D50098B210 /* A3ViewController.swift in Sources */,
 				6DD681C32233A9770098B210 /* QuestionParser.swift in Sources */,
 				6DD681C12233A9150098B210 /* QuestionsFromXml.swift in Sources */,
 				6DF947BC223BF4B600AAB320 /* btnSubClass.swift in Sources */,
-				6DD681C92233B8AE0098B210 /* QuestionTableViewCell.swift in Sources */,
 				6DD681AA2233A69C0098B210 /* AppDelegate.swift in Sources */,
 				6DB799072233EB4800295F64 /* A3QuizViewController.swift in Sources */,
 			);
